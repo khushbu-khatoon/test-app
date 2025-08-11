@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="box">
+    <div class="top_part">
+      <div class="title_part">
+        <h2>Typing Test</h2>
+      </div>
+      <div class="type-content">
+        <p></p>
+      </div>
+    </div>
+
+    <div class="buttom_part">
+      <input id="typealue" type="text" placeholder="Start typing..." autocomplete="off" />
+      <button>Reset</button>
+    </div>
+
+    <div class="stats">
+      <div class="t-left">Time Left: 60s</div>
+      <div class="error">Mistakes: 0</div>
+      <div class="wpm">WPM: 0</div>
+      <div class="cpm">CPM: 0</div>
+    </div>
+
+    <div class="sound">
+      <label>
+        <input type="checkbox"> Sound
+      </label>
+    </div>
+  </div>
+
+  <script>
+    // Sample paragraph array used by loadpara()
+    const article = [
+      "Practice makes perfect.",
+      "Typing fast is a useful skill.",
+      "JavaScript is fun!",
+      "Improve your typing speed every day.",
+      "Keep calm and keep coding."
+    ];
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
